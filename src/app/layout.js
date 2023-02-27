@@ -1,4 +1,7 @@
+import Header from '@/components/Header/Header';
 import './globals.css'
+import Navbar from '@/components/Navbar/Navbar';
+import SearchBox from '@/components/SearchBox/SearchBox';
 
 export const metadata = {
   title: 'IMDb Clone',
@@ -13,7 +16,18 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        {/* Header */}
+        <Header />
+        
+        {/* Navbar */}
+        <Navbar />
+        
+        {/* Search Box */}
+        <SearchBox />
+
+        {children}
+      </body>
     </html>
   )
 }
