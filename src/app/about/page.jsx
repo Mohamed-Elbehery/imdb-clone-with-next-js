@@ -1,6 +1,6 @@
 const page = () => {
   return (
-    <div className="max-w-6xl mx-auto space-y-4">
+    <div className="max-w-6xl p-6 mx-auto space-y-4">
       <h1 className="text-2xl font-medium text-amber-400">About</h1>
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex delectus

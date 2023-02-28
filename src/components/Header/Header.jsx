@@ -9,9 +9,9 @@ const Header = () => {
     <header className="flex items-center justify-between mx-2 sm:py-6 max-w-6xl sm:mx-auto">
       <nav>
         <ul className="flex items-center">
-          <MenuItem title={"HOME"} path={"/"} Icon={AiFillHome} />
+          <MenuItem title={"Home"} path={"/"} Icon={AiFillHome} />
           <MenuItem
-            title={"ABOUT"}
+            title={"About"}
             path={"/about"}
             Icon={BsFillInfoCircleFill}
           />
