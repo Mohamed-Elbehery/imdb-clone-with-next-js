@@ -21,13 +21,13 @@ const SearchBox = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="flex max-w-6xl mx-auto justify-between items-center mt-6 sm:flex-row flex-col gap-y-4"
+      className="flex max-w-6xl mx-auto justify-between items-center mt-6 sm:flex-row flex-col gap-y-4 sm:px-4"
     >
       <input
         onChange={(e) => setSearch(e.target.value)}
         type="text"
         placeholder="Enter Movie Name..."
-        className="w-[85%] h-14 px-4 rounded-lg placeholder-gray-500 outline-none bg-gray-100 dark:bg-gray-700 transition duration-300 text-gray-400 focus:scale-105"
+        className="w-[85%] h-14 px-4 rounded-lg placeholder-gray-500 outline-none bg-gray-100 dark:bg-gray-700 transition duration-300 text-gray-400"
       />
       <button
         disabled={!search}
