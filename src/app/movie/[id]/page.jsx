@@ -38,7 +38,7 @@ const MoviePage = async ({ params }) => {
           </p>
           <p className="text-lg mb-3">
             <span className="font-bold mr-2">Date Released :</span>
-            {movie.release_date || movie.first_air_data}
+            {movie.release_date || movie.first_air_date}
           </p>
           <p className="text-lg mb-3 flex items-center">
             <span className="font-bold mr-2">Rating :</span>

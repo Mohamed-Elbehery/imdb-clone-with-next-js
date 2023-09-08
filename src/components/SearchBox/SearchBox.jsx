@@ -27,7 +27,7 @@ const SearchBox = () => {
         onChange={(e) => setSearch(e.target.value)}
         type="text"
         placeholder="Enter Movie Name..."
-        className="w-[85%] h-14 px-4 rounded-lg placeholder-gray-500 outline-none bg-gray-700 transition duration-300 text-gray-400 focus:scale-105"
+        className="w-[85%] h-14 px-4 rounded-lg placeholder-gray-500 outline-none bg-gray-100 dark:bg-gray-700 transition duration-300 text-gray-400 focus:scale-105"
       />
       <button
         disabled={!search}
